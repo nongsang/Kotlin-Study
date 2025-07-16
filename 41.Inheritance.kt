@@ -1,6 +1,6 @@
 package org.example
 
-open class Dog {            // open 키워드를 클래스 앞에 사용해서 클래스 상속해서 사용할 수 있는 클래스임을 정의한다.
+open class Dog {            // open 키워드를 사용하여 자식 클래스에 상속할 수 있는 클래스임을 정의한다.
     fun makeSound() {
         println("소리를 낸다")
     }

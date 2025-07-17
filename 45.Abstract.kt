@@ -54,9 +54,9 @@ fun main() {
     var retriever: Retriever = Retriever("찹쌀떡") // 리트리버 생성
     retriever.species = "개"         // 종을 개로 변경
     retriever.seeFriend()           // 찹쌀떡, 3살, 개: 자리에 앉기
-    // 찹쌀떡, 3살, 개: 월! 월!
+                                    // 찹쌀떡, 3살, 개: 월! 월!
     retriever.eatFood()             // 찹쌀떡, 3살, 개: 냠냠~
-    // 찹쌀떡, 3살, 개: 와그작 와그작!
+                                    // 찹쌀떡, 3살, 개: 와그작 와그작!
     retriever.sleep()               // 찹쌀떡, 3살, 개: 쿨쿨~
 
     //var animal: Animal = Animal("동물")   // Animal은 추상 클래스이므로 인스턴스를 생성할 수 없다.
